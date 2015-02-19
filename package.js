@@ -7,7 +7,7 @@ Package.describe({
   name: packageName,
   summary: "Reactive responsive helpers.",
   version: "1.0.0",
-  git: 'https://github.com/patrickleet/enquire.js.git'
+  git: 'https://github.com/PlusMore/reactive-responsive-helpers.git'
 });
 
 Package.onUse(function (api) {
