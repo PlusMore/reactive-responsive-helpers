@@ -22,10 +22,3 @@ Package.onUse(function (api) {
     'src/responsiveHelpers.js'
   ], ['client']);
 });
-
-Package.onTest(function (api) {
-  api.use(packageName);
-  api.use('tinytest');
-
-  api.addFiles('meteor/test.js');
-});
